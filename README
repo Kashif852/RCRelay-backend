@@ -11,8 +11,10 @@ npm (Comes installed with Node.js)
 
 Step1: Clone the Repository
 
+        Github URL: https://github.com/Kashif852/RCRelay-backend
         Clone the backend repository to your local machine using:
-        git clone [URL of the Backend Repository]
+        git clone https://github.com/Kashif852/RCRelay-backend.git
+        git clone git@github.com:Kashif852/RCRelay-backend.git
         cd relay-checkout-system
 
 Step2: Install Dependencies
