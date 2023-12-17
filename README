@@ -1,0 +1,61 @@
+##### Relay Checkout System Backend 
+
+##### Introduction
+This README outlines the setup process for the Relay Checkout System's backend. The backend is built with Node.js and Express, providing APIs for product management, discounts, and checkout functionality.
+
+##### Prerequisites
+Node.js (Version 12 or higher)
+npm (Comes installed with Node.js)
+
+##### Installation
+
+Step1: Clone the Repository
+
+        Clone the backend repository to your local machine using:
+        git clone [URL of the Backend Repository]
+        cd relay-checkout-system
+
+Step2: Install Dependencies
+
+        Navigate to the cloned directory and install the required npm packages:
+        npm install
+
+#### Running the Server
+  
+Development Mode
+
+        To run the server in development mode, use the following command:
+        npm run dev
+
+#### Testing
+
+Run Tests
+
+        The backend includes test cases using Jest and Supertest. To run the tests, execute:
+        npm test
+
+To run tests in watch mode:
+
+        npm run test:watch
+
+#### API Endpoints
+
+Products
+
+        GET /products: Retrieves a list of available products.
+
+Discounts
+
+        GET /discounts: Provides information about current discount offers.
+
+Checkout
+
+        POST /checkout: Processes the checkout. The request body should contain an array of item identifiers (SKUs).
+
+#### Additional Notes
+The project does not use a database. Instead, it operates with in-memory data structures.
+For any environment-specific configurations, consider adding a .env file in the project root (currently not required for this setup).
+Feel free to explore the project structure for a deeper understanding of its components.
+
+#### Author
+Kashif Hussain

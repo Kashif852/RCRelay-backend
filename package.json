@@ -1,0 +1,23 @@
+{
+  "name": "relay-checkout-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "kashif hussain",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-mocks-http": "^1.14.0",
+    "nodemon": "^3.0.2"
+  }
+}
